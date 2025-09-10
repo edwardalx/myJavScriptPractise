@@ -3,12 +3,15 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import ColorPlay from '../../React-Module/color-play'
+import {Counter, CollectData} from '../../React-Module/useEffectExample'
 
 function App() {
   const [count, setCount] = useState(0)
   return (
     <>
       <ColorPlay />
+      <Counter />
+      <CollectData />
       {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
